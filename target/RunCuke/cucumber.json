@@ -1,0 +1,226 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13426965700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.srtUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User should verify that Bingo games",
+        "description": "",
+        "id": "games-page;user-should-verify-that-bingo-games",
+        "after": [
+          {
+            "result": {
+              "duration": 1776194100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 497953200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on home page",
+            "match": {
+              "location": "GamesSteps.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 408399600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I mouse Hover on Games  Menu",
+            "match": {
+              "location": "GamesSteps.iMouseHoverOnGamesMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4289640400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on bingo",
+            "match": {
+              "location": "GamesSteps.iClickOnBingo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58926000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify that \"Bingo\" message on bingo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bingo",
+                  "offset": 15
+                }
+              ],
+              "location": "GamesSteps.iVerifyThatMessageOnBingoPage(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6543395100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.srtUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "User should verify that Slots games",
+        "description": "",
+        "id": "games-page;user-should-verify-that-slots-games",
+        "after": [
+          {
+            "result": {
+              "duration": 1631601800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 36000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am on home page",
+            "match": {
+              "location": "GamesSteps.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 290639700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I mouse Hover on Games  Menu",
+            "match": {
+              "location": "GamesSteps.iMouseHoverOnGamesMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1817632100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on bingo",
+            "match": {
+              "location": "GamesSteps.iClickOnBingo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 903560600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on Parlay Slots",
+            "match": {
+              "location": "GamesSteps.iClickOnParlaySlots()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 74536300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I get the all games name",
+            "match": {
+              "location": "GamesSteps.iGetTheAllGamesName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 252312700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on Fruity Frenzy game",
+            "match": {
+              "location": "GamesSteps.iClickOnFruityFrenzyGame()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 482894000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I verify that \"Log in to Start Playing!\" message will display",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Log in to Start Playing!",
+                  "offset": 15
+                }
+              ],
+              "location": "GamesSteps.iVerifyThatMessageWillDisplay(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Games Page",
+    "description": "As User I want to verify the Games page on canadiandollarbingo website",
+    "id": "games-page",
+    "keyword": "Feature",
+    "uri": "gamesTest.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@smoke"
+      }
+    ]
+  }
+]
